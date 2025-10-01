@@ -1,0 +1,324 @@
+/* ==============================
+   Global Reset & Variables
+   ============================== */
+:root {
+  --primary: #0077ff;
+  --secondary: #ff6b6b;
+  --bg: #f9f9f9;
+  --text: #222;
+  --muted: #777;
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* ==============================
+   Navbar
+   ============================== */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-left {
+  cursor: pointer;
+}
+
+.brand {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.tagline {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.nav-right a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-right a:hover {
+  color: var(--primary);
+}
+
+/* ==============================
+   Footer
+   ============================== */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  background: white;
+  border-top: 1px solid #ddd;
+  color: var(--muted);
+}
+
+/* ==============================
+   SearchBar
+   ============================== */
+.searchbar {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-form {
+  display: flex;
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.search-form input {
+  flex: 1;
+  border: none;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-form .btn-search {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-form .btn-search:hover {
+  background: #005fd1;
+}
+
+.suggestions {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  right: 0;
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  z-index: 50;
+  overflow: hidden;
+}
+
+.suggestion {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.suggestion:hover {
+  background: #f5faff;
+}
+
+/* ==============================
+   Package Card
+   ============================== */
+.package-card {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.25s ease;
+}
+
+.package-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-media {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-body h3 {
+  margin-bottom: 0.3rem;
+}
+
+.card-body .muted {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.card-body .desc {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.card-footer .btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background 0.3s;
+}
+
+.card-footer .btn:hover {
+  background: #005fd1;
+}
+
+.card-footer .btn-outline {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.card-footer .btn-outline:hover {
+  background: #f0f8ff;
+}
+
+/* ==============================
+   Booking Form
+   ============================== */
+.booking-form {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.booking-form input,
+.booking-form textarea,
+.booking-form select {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: var(--radius);
+  margin-top: 0.4rem;
+}
+
+.booking-summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.form-actions .btn {
+  background: var(--secondary);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.form-actions .btn:hover {
+  background: #e94b4b;
+}
+
+/* ==============================
+   Pages
+   ============================== */
+.hero {
+  background: linear-gradient(to right, #e0f3ff, #fdfdff);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.highlight,
+.packages,
+.testimonials {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.testimonials blockquote {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius);
+  font-style: italic;
+}
+
+/* ==============================
+   Responsive
+   ============================== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-right {
+    margin-top: 0.5rem;
+  }
+
+  .searchbar {
+    max-width: 100%;
+  }
+
+  .booking-form {
+    padding: 1.2rem;
+  }
+}

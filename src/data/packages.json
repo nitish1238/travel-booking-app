@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Goa Beach Escape",
+    "location": "Goa, India",
+    "price": 12000,
+    "duration": "5 Days / 4 Nights",
+    "image": "/assets/beach.jpg",
+    "description": "Relax on sandy beaches, enjoy vibrant nightlife, and explore the Portuguese heritage of Goa.",
+    "tags": ["beach", "relaxation", "nightlife", "india", "party"]
+  },
+  {
+    "id": 2,
+    "name": "Manali Adventure",
+    "location": "Manali, Himachal Pradesh",
+    "price": 15000,
+    "duration": "6 Days / 5 Nights",
+    "image": "/assets/mountain.jpg",
+    "description": "Experience trekking, camping, and river rafting in the Himalayas. Perfect for thrill-seekers.",
+    "tags": ["mountain", "trekking", "adventure", "camping", "india"]
+  },
+  {
+    "id": 3,
+    "name": "Kerala Backwaters",
+    "location": "Alleppey, Kerala",
+    "price": 18000,
+    "duration": "7 Days / 6 Nights",
+    "image": "/assets/kerala.jpg",
+    "description": "Cruise on houseboats, enjoy authentic Kerala cuisine, and explore the serene backwaters.",
+    "tags": ["kerala", "backwater", "nature", "relaxation", "india"]
+  },
+  {
+    "id": 4,
+    "name": "Leh-Ladakh Bike Trip",
+    "location": "Ladakh, Jammu & Kashmir",
+    "price": 25000,
+    "duration": "10 Days / 9 Nights",
+    "image": "/assets/ladakh.jpg",
+    "description": "Ride through rugged terrains, mountain passes, and witness breathtaking landscapes.",
+    "tags": ["bike", "mountain", "roadtrip", "adventure", "india"]
+  },
+  {
+    "id": 5,
+    "name": "Golden Triangle Tour",
+    "location": "Delhi-Agra-Jaipur",
+    "price": 20000,
+    "duration": "7 Days / 6 Nights",
+    "image": "/assets/golden-triangle.jpg",
+    "description": "Discover India's history and culture by visiting the Taj Mahal, Jaipur forts, and Delhi landmarks.",
+    "tags": ["history", "culture", "taj mahal", "heritage", "india"]
+  },
+  {
+    "id": 6,
+    "name": "Andaman Islands Getaway",
+    "location": "Port Blair, Andaman",
+    "price": 22000,
+    "duration": "6 Days / 5 Nights",
+    "image": "/assets/andaman.jpg",
+    "description": "Scuba dive, snorkel, and enjoy pristine beaches in the Andaman & Nicobar Islands.",
+    "tags": ["andaman", "beach", "snorkeling", "diving", "india"]
+  },
+  {
+    "id": 7,
+    "name": "Rajasthan Desert Safari",
+    "location": "Jaisalmer, Rajasthan",
+    "price": 17000,
+    "duration": "5 Days / 4 Nights",
+    "image": "/assets/rajasthan.jpg",
+    "description": "Camel safari, desert camping, and folk dance in the golden sands of Jaisalmer.",
+    "tags": ["desert", "safari", "culture", "heritage", "india"]
+  },
+  {
+    "id": 8,
+    "name": "Sikkim & Darjeeling Escape",
+    "location": "Sikkim-Darjeeling",
+    "price": 19000,
+    "duration": "6 Days / 5 Nights",
+    "image": "/assets/sikkim.jpg",
+    "description": "Tea gardens, monasteries, and Himalayan views await you in Sikkim & Darjeeling.",
+    "tags": ["sikkim", "darjeeling", "himalaya", "nature", "india"]
+  },
+  {
+    "id": 9,
+    "name": "Maldives Luxury Stay",
+    "location": "Male, Maldives",
+    "price": 60000,
+    "duration": "5 Days / 4 Nights",
+    "image": "/assets/maldives.jpg",
+    "description": "Overwater villas, crystal-clear waters, and luxury resorts in the Maldives.",
+    "tags": ["luxury", "beach", "island", "romantic", "international"]
+  },
+  {
+    "id": 10,
+    "name": "Swiss Alps Adventure",
+    "location": "Zurich, Switzerland",
+    "price": 85000,
+    "duration": "8 Days / 7 Nights",
+    "image": "/assets/swiss.jpg",
+    "description": "Skiing, snowboarding, and scenic train rides through the Swiss Alps.",
+    "tags": ["switzerland", "skiing", "snow", "mountain", "international"]
+  },
+  {
+    "id": 11,
+    "name": "Bali Spiritual Retreat",
+    "location": "Bali, Indonesia",
+    "price": 40000,
+    "duration": "6 Days / 5 Nights",
+    "image": "/assets/bali.jpg",
+    "description": "Yoga, meditation, and cultural experiences in Bali’s serene environment.",
+    "tags": ["bali", "yoga", "spiritual", "beach", "international"]
+  },
+  {
+    "id": 12,
+    "name": "Dubai Shopping Festival",
+    "location": "Dubai, UAE",
+    "price": 35000,
+    "duration": "5 Days / 4 Nights",
+    "image": "/assets/dubai.jpg",
+    "description": "Shop luxury brands, visit Burj Khalifa, and enjoy desert safaris.",
+    "tags": ["dubai", "shopping", "luxury", "desert", "international"]
+  }
+]
